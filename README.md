@@ -1,12 +1,9 @@
-==========================================================================
-==                 :: PRUEBA DE CONCEPTO - LOGSTASH ::                  ==
-==                                                                      ==
-==                         Fecha:  16-12-2016                           ==
-==                    Autor: Diego Jesús Hernández                      ==
-==                                                                      ==
-==                Arquitectura Corporativa de Sistemas                  ==
-==                                                                      ==
-==========================================================================
+.:: PRUEBA DE CONCEPTO - LOGSTASH ::.
+
+Fecha:  16-12-2016
+Autor: Diego Jesús Hernández
+Arquitectura Corporativa de Sistemas
+
 
 El repositorio contiene la prueba de concepto sobre la herramienta Logstash
 que ha sido evaluado por Arquitectura. La configuración de dicho ambientes 

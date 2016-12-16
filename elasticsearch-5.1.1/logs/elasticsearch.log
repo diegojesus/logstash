@@ -526,3 +526,7 @@ Caused by: java.nio.file.NoSuchFileException: /home/ubuntu/workspace/elasticsear
 	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:527) ~[elasticsearch-5.1.1.jar:5.1.1]
 	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.1.1.jar:5.1.1]
 	... 3 more
+[2016-12-16T18:29:33,846][INFO ][o.e.n.Node               ] [7nKG0FS] stopping ...
+[2016-12-16T18:29:34,830][INFO ][o.e.n.Node               ] [7nKG0FS] stopped
+[2016-12-16T18:29:34,830][INFO ][o.e.n.Node               ] [7nKG0FS] closing ...
+[2016-12-16T18:29:35,030][INFO ][o.e.n.Node               ] [7nKG0FS] closed
