@@ -1,0 +1,29 @@
+[2016-12-15T20:40:50,978][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-12-15T20:40:51,769][INFO ][o.e.e.NodeEnvironment    ] [7nKG0FS] using [1] data paths, mounts [[/ (none)]], net usable_space [1.1gb], net total_space [2.1gb], spins? [possibly], types [aufs]
+[2016-12-15T20:40:51,776][INFO ][o.e.e.NodeEnvironment    ] [7nKG0FS] heap size [494.9mb], compressed ordinary object pointers [true]
+[2016-12-15T20:40:51,782][INFO ][o.e.n.Node               ] node name [7nKG0FS] derived from node ID [7nKG0FSJRmGhvHgc_icXsw]; set [node.name] to override
+[2016-12-15T20:40:51,791][INFO ][o.e.n.Node               ] version[5.1.1], pid[2985], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.2.0-c9/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2016-12-15T20:41:18,945][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [aggs-matrix-stats]
+[2016-12-15T20:41:18,946][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [ingest-common]
+[2016-12-15T20:41:18,946][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [lang-expression]
+[2016-12-15T20:41:18,946][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [lang-groovy]
+[2016-12-15T20:41:18,946][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [lang-mustache]
+[2016-12-15T20:41:18,946][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [lang-painless]
+[2016-12-15T20:41:18,946][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [percolator]
+[2016-12-15T20:41:18,947][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [reindex]
+[2016-12-15T20:41:18,947][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [transport-netty3]
+[2016-12-15T20:41:18,947][INFO ][o.e.p.PluginsService     ] [7nKG0FS] loaded module [transport-netty4]
+[2016-12-15T20:41:18,948][INFO ][o.e.p.PluginsService     ] [7nKG0FS] no plugins loaded
+[2016-12-15T20:41:26,750][INFO ][o.e.n.Node               ] initialized
+[2016-12-15T20:41:26,755][INFO ][o.e.n.Node               ] [7nKG0FS] starting ...
+[2016-12-15T20:41:26,957][INFO ][o.e.t.TransportService   ] [7nKG0FS] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-12-15T20:41:26,967][WARN ][o.e.b.BootstrapCheck     ] [7nKG0FS] max file descriptors [8192] for elasticsearch process is too low, increase to at least [65536]
+[2016-12-15T20:41:26,967][WARN ][o.e.b.BootstrapCheck     ] [7nKG0FS] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2016-12-15T20:41:32,294][WARN ][o.e.m.j.JvmGcMonitorService] [7nKG0FS] [gc][young][1][4] duration [4.8s], collections [1]/[5.5s], total [4.8s]/[5.8s], memory [89.8mb]->[63.1mb]/[494.9mb], all_pools {[young] [59.6mb]->[17.5mb]/[136.5mb]}{[survivor] [17mb]->[12.5mb]/[17mb]}{[old] [13.1mb]->[33.7mb]/[341.3mb]}
+[2016-12-15T20:41:32,298][WARN ][o.e.m.j.JvmGcMonitorService] [7nKG0FS] [gc][1] overhead, spent [4.8s] collecting in the last [5.5s]
+[2016-12-15T20:41:33,975][INFO ][o.e.c.s.ClusterService   ] [7nKG0FS] new_master {7nKG0FS}{7nKG0FSJRmGhvHgc_icXsw}{3Fc24JyGTH6roV5KI6PeeA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-12-15T20:41:34,014][INFO ][o.e.h.HttpServer         ] [7nKG0FS] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-12-15T20:41:34,015][INFO ][o.e.n.Node               ] [7nKG0FS] started
+[2016-12-15T20:41:34,048][INFO ][o.e.g.GatewayService     ] [7nKG0FS] recovered [0] indices into cluster_state
+[2016-12-15T21:12:06,557][WARN ][o.e.m.j.JvmGcMonitorService] [7nKG0FS] [gc][young][1833][5] duration [2.1s], collections [1]/[2.6s], total [2.1s]/[8s], memory [182.5mb]->[58mb]/[494.9mb], all_pools {[young] [136.2mb]->[886.6kb]/[136.5mb]}{[survivor] [12.5mb]->[3.9mb]/[17mb]}{[old] [33.7mb]->[53.6mb]/[341.3mb]}
+[2016-12-15T21:12:06,558][WARN ][o.e.m.j.JvmGcMonitorService] [7nKG0FS] [gc][1833] overhead, spent [2.1s] collecting in the last [2.6s]
